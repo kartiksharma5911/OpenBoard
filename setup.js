@@ -1,0 +1,11 @@
+let cTool = "pencil";
+let canvasBoard = document.querySelector("canvas");
+let tool = canvasBoard.getContext("2d");
+let body = document.querySelector("body");
+let pencil = document.querySelector("#pencil");
+let eraser = document.querySelector("#eraser");
+let rect = document.querySelector("#rect");
+let line = document.querySelector("#line");
+let options = document.querySelectorAll(".size-box");
+canvasBoard.height = window.innerHeight;
+canvasBoard.width = window.innerWidth;
